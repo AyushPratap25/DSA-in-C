@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int rseries(int n)
+{
+    int sum;
+    if (n == 0)
+        return 0;
+    sum = (n + rseries(n - 1));
+    printf("%d + ", n);
+    return sum;
+}
+
+int main()
+{
+    int n = 5;
+    printf("\b\b\b = %d\n\n\n", rseries(n));
+    return 0;
+}

@@ -1,0 +1,26 @@
+// STACK Data Structure
+/*
+when we are popping an item in actual first the item is retained from the top
+then the top value is decremented and on next push top gets incremented and the previous value
+gets overwritten by the new one :)
+*/
+
+/*
+Mistakes
+1. Don't forget the & sign in scanf
+2. NO semiclon in preprocessor directive
+3. for any condition say <if> 1 stands for True and 0 for false so make sure to return value
+value accordingly say like in isEmpty(s) and isFull(s)
+4. return -1 for stack is empty say, in isEmpty for underflow or say failure
+*/
+
+/*
+NOTE
+>> Once the program stops the arr value is lost
+so incase of stack make sure to loop it for continous push, pop, and display once the program
+stops the array losses its data
+>> To retain the data on multiple execution stack can be stored in some database or so (extra pt)
+>> since here operating on single stack so no need of <s[]> parameter in isEmpty() or
+isFull() since we are not using it inside the function so unnecessary parameter
+>> return s[top--] , firs s[top] then decrement the top, postix incrementation
+*/
