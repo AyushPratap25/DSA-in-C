@@ -1,6 +1,6 @@
 # DSA in C
 
-A comprehensive collection of Data Structures and Algorithms implemented from scratch in C. Built alongside semester coursework.
+A comprehensive collection of Data Structures and Algorithms implemented from scratch in C. Built alongside semester coursework (3rd Semester).
 
 ## Tech Stack
 
